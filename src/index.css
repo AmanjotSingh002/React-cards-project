@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent{
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.card{
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;   
+}
+.top img{
+  height: 35px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #b1b1b1;
+  
+  margin: 5px 3px ;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+.center{
+  padding: 25px;
+  margin-bottom: 45px;
+  
+}
+.center .tag{
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+.tag .tag1{
+  
+  border-radius: 5px;
+  padding : 2px;
+  font-weight: 400;
+  background-color: #eae0e0;
+}
+.tag .tag2{
+  
+  border-radius: 5px;
+  padding : 2px;
+  font-weight: 400;
+  background-color: #eae0e0;
+}
+.center h3{
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.center span{
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(99, 91, 91);
+}
+.center h2{
+  font-size: 25px;
+  padding-top: 15px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dadada;
+  padding: 20px;
+  
+}
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
+.bottom h3{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.bottom p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
